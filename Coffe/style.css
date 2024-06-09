@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&family=Architects+Daughter&family=Crete+Round&family=Julee&family=Kablammo&family=Kalnia:wght@700&family=Lobster&family=Lobster+Two&family=Markazi+Text:wght@700&family=Montserrat:wght@500&family=Pacifico&family=Playball&family=Romanesco&family=Syne+Mono&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&family=Architects+Daughter&family=Crete+Round&family=Julee&family=Kablammo&family=Kalnia:wght@700&family=Lobster&family=Lobster+Two&family=Markazi+Text:wght@700&family=Montserrat:wght@500&family=Norican&family=Pacifico&family=Playball&family=Romanesco&family=Syne+Mono&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&family=Architects+Daughter&family=Crete+Round&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Julee&family=Kablammo&family=Kalnia:wght@700&family=Lobster&family=Lobster+Two&family=Markazi+Text:wght@700&family=Montserrat:wght@500&family=Norican&family=Pacifico&family=Playball&family=Romanesco&family=Syne+Mono&family=Yellowtail&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.headr{
+    background-color: #986B41;
+    overflow: hidden;
+}
+.div-one{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.justify{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.div-one img{
+    margin-top: -25px;
+    margin-right: -90px;
+
+}
+.logo{
+    margin-top: 6px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: black;
+    color: wheat;
+}
+#log{
+    padding-top: 25px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 18px 0;
+    padding-top: 20px;
+}
+.menu li a{
+    background-color: #56342A;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 50px;
+    border: 1px solid salmon;
+}
+.menu li a:hover {
+    background-color: #643f34;
+    text-decoration: underline;
+}
+.head-img{
+    margin-right: -8px;
+}
+.div-two{
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+}
+.head-txt{
+    text-align: center;
+    font-family: monospace;
+    padding: 18px;
+    margin-top: 2%;
+    width: 100%;
+    color: white;
+}
+.head-txt h1{
+    font-family: "Gentium Book Plus", serif;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    
+}
+.head-txt h5{
+    font-weight: bold;
+    font-size: 21px;
+    font-family: "norican";
+}
+.discover{
+    background-color:#f4ef9d;
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    height: 285px;
+    width: 285px;
+    border-radius: 40px;
+    background-image: url('https: //png.pngtree.com/thumb_back/fh260/background/20230611/pngtree-cup-of-latte-on-wooden-table-image_2943328.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.discover h2 , h4{
+    margin: 0 5px;
+}
+.discover h4{
+    color: grey;
+}
+.discover-txt{
+    margin-top: 35px;
+}
+.discover img{
+    margin: 15px;
+    border-radius: 44px;
+}
+.discover p{
+    padding: 12.5px;
+    margin: 0 12px;
+}
+.rm-btn{
+    margin-left: 18px;
+    padding: 14px;
+    width: 20%;
+    background-color: rgb(90, 52, 27);
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+}
+.rm-btn a{
+    text-decoration: none;
+    color: white;
+}
+.icon-one{
+    display: flex;
+    padding-left: 15px;
+}
+.icon-head{
+    text-align: left;
+    align-self: center;
+}
+.review{
+    background-color: #D7BA89;
+    text-align: center;
+}
+.icon-two{
+    display: flex;
+    justify-content: center;
+}
+.icon-two h1{
+    padding-left: 25px;
+    text-align: center;
+    align-self: center;
+}
+.comments{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+}
+.card{
+    background-color: navajowhite;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+}
+.info h5{
+    margin: 0 30%;
+    padding-bottom: 8px;
+    border-bottom: 2px dashed black;
+}
+.info img{
+    margin-top: 12px;
+}
+.comment{
+    padding: 8px 8px;
+}
+.footer{
+    background-color: #000;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-items{
+    margin-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.fi{
+    display: flex;
+    margin: 18px;
+}
+.fi i {
+    padding: 0 14px;
+    font-size: 30px;
+    align-self: center;
+    color: red;
+}
+.fi span h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+.fi span h5{
+
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+}
+.useful-links{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+.useful-links a{
+    display: block;
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+}
+.useful-links a:hover {
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.useful-links h2{
+    color: white;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 4px;
+}
+#face{
+    color: blue;
+    background-color: white;
+    font-size: 35px;
+    margin: 0 15px;
+    border-radius: 52%;
+}
+#insta{
+    color: white;
+    font-size: 28px;
+    background: linear-gradient(to left , rgb(218, 135, 34) , rgb(115, 27, 115));
+    padding: 5px;
+    margin: 0 15px;
+    border-radius: 12px;
+}
+#google{
+    margin: 0 15px;
+    color: brown;
+    background-color: white;
+    font-size: 35px;
+    border-radius: 52%;
+}
+.description{
+    color: white;
+    padding: 5px;
+    text-wrap: balance;
+    width: 250px;
+    color: grey;
+}
+.follow-us h3{
+    color: white;
+    margin: 12px;
+}
+.follow-us a{
+    text-decoration: none;
+}
+.subscribe{
+    padding: 15px;
+    margin: 15px;
+    text-transform: capitalize;
+}
+.input{
+    display: flex;
+}
+.input input , button{
+    padding: 12px;
+    margin-top: 8px;
+}
+.input input{
+    width: 70%;
+    margin-left: 15px;
+}
+.input button{
+    background-color: wheat;
+}
+.footer-logo{
+    margin-top: 6px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color: #000;
+}
+
+
+@media only screen and (max-width:1200px){
+    .menu li a{
+        padding: 10px;
+    }
+    .div-one img{
+    margin-right: -90px;
+    }
+    .justify{
+        width: 70%;
+    }
+    .div-two img{
+        margin-top: -20px;
+    }
+    .div-two{
+        height: 200px;
+    }
+    .discover{
+        display: block;
+    }
+    .discover img{
+        width: 100%;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+    .icon-one img{
+        height: 60px;
+        width: 7%;
+    }
+    .comments{
+        grid-template-columns: 350px 350px;
+        align-items: center;
+        justify-content: center;
+    }
+    .rm-btn{
+        margin-bottom: 18px;
+    }
+    .footer-items{
+        margin: 0 14px;
+    }
+    .description{
+        margin-left: 8px;
+    }
+    .footer-logo{
+        margin-left: 12px;
+    }
+}
